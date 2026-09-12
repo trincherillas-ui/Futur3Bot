@@ -23,9 +23,9 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Futur3Kidd en Kick", // required by Discord API, not shown in the client
-        state: "Entra a verle",     // this is what people actually see
-        type: 0,               // Custom
+        name: "Custom Status" , // required by Discord API, not shown in the client
+        state: "Futur3Kidd en Kick Entra a verle",     // this is what people actually see
+        type: 0,               // Playing
       },
     ],
   },
