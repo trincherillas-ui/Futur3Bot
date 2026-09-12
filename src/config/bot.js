@@ -25,8 +25,8 @@ export const botConfig = {
       {
         name: "Futur3Kidd en Kick", // required by Discord API, not shown in the client
         state: "Entra a verle",     // this is what people actually see
-        type: 1,               // Streaming
-      },
+        type: 3,               // Watching
+          },
     ],
   },
 
