@@ -61,9 +61,9 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
-      { question: "How old are you?", required: true },
-      { question: "Why do you want to join?", required: true },
+      { question: "¿Cómo te llamas?", required: true },
+      { question: "¿Cuantos años tienes?", required: true },
+      { question: "¿Por qué quieres entrar al server?", required: true },
     ],
 
     // Embed colors by application status.
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Futur3Bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -161,11 +161,11 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "FutureMoneda",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "FutureMonedas",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "€",
     },
 
     // Starting balance for new users.
@@ -294,7 +294,7 @@ export const botConfig = {
     announcementChannel: null,
 
     // Timezone used to calculate birthday dates.
-    timezone: "UTC",
+    timezone: "GMT+2",
   },
 
   // =========================
@@ -434,13 +434,13 @@ export const botConfig = {
   // GENERIC BOT MESSAGES
   // =========================
   messages: {
-    noPermission: "You do not have permission to use this command.",
-    cooldownActive: "Please wait {time} before using this command again.",
-    errorOccurred: "An error occurred while executing this command.",
+    noPermission: "No tienes permiso para usar este comando.",
+    cooldownActive: "Porfavor espera {time} antes de usar este comando otra vez.",
+    errorOccurred: "Ha habido un error usando este comando.",
     missingPermissions:
-      "I am missing required permissions to perform this action.",
-    commandDisabled: "This command has been disabled.",
-    maintenanceMode: "The bot is currently in maintenance mode.",
+      "Te falta permiso para esta accion.",
+    commandDisabled: "Los comandos de musica estan desabilitados usa los de KenaBot.",
+    maintenanceMode: "El bot está en mantenimiento, intentalo más tarde.",
   },
 
   // =========================
