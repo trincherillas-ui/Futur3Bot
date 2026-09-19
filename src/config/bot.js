@@ -63,7 +63,7 @@ export const botConfig = {
     defaultQuestions: [
       { question: "¿Cómo te llamas?", required: true },
       { question: "¿Cuantos años tienes?", required: true },
-      { question: "¿Por qué quieres entrar al server?", required: true },
+      { question: "¿Por qué quieres ser mod?", required: true },
     ],
 
     // Embed colors by application status.
